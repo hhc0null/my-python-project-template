@@ -1,0 +1,26 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "python.venvPath": "${workspaceFolder}/.venv",
+    "python.formatting.blackPath": "black",
+    "python.formatting.provider": "black",
+    "python.linting.flake8Path": "flake8",
+    "python.linting.flake8Args": [
+        "--max-line-length",
+        "88"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyPath": "mypy",
+    "python.linting.mypyEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.sortImports.args": [
+        "-sp ${workspaceFolder}/.vscode/isort.json"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
+}
